@@ -19,10 +19,10 @@ To create a notebook using these images, see "Creating notebooks, source code fi
 ## Creating notebooks, source code files, and accessing the Terminal
 SageMaker Studio Lab lets you create notebooks, source code files, and access the built-in Terminal. You can do this by clicking on the "+" button at the top of the file browser in the left panel to open the Launcher:
 
-![Launcher Button](images/launcher_button.png)
+**Launcher Button**:
 In the Launcher, there are a set of cards that allow you to launch notebooks in different environments, create source code files, or access the Terminal:
 
-![Launcher Cards](images/launcher_cards_wsmdistro.png)
+**Launcher Cards**:
 We recommend creating notebooks using the **sagemaker-distribution** environment, which includes a rich set of pre-installed libraries commonly used for data engineering and AI/ML tasks.
 
 All of the notebooks, files, and datasets that you create are saved in your persistent project directory and are available when you open your project. To get help or access documentation, click on the **Help** menu in the menu bar at the top of the page.
@@ -101,7 +101,7 @@ This example creates an new environment named `my_environment` with Python 3.9.
 
 **Alternatively**, if you have a Conda environment file, can right click on the file in the JupyterLab file browser, and select the "Build Conda Environment" item:
 
-![Create Environment](images/create_environment.png)
+**Create Environment**:
 
 To activate any Conda environment in the Terminal, run:
 
